@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Thread</string>
+    <string name="read_success">讀取成功</string>
+    <string name="save_success">儲存成功</string>
+    <string name="jsondata">
+    {
+        "booklist": [
+        "JSON",
+        "Java",
+        "R"
+        ],
+        "pwd": 9487,
+        "userId": "haoye"
+    }
+    </string>
+    <string name="title_activity_maps">Map</string>
+</resources>

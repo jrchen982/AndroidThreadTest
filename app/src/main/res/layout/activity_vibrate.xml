@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Spinner
+                android:id="@+id/spinnner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </Spinner>
+            <TextView
+                android:id="@+id/tv_post"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="此執行續只能執行一次" />
+            <Button
+                android:id="@+id/btn_post_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white" />
+            <TextView
+                android:id="@+id/tv_counter"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="0" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <Button
+                android:id="@+id/btn_sharedpreference"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sharedpreference"
+                android:textAllCaps="false" />
+            <Button
+                android:id="@+id/btn_parse_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Parse"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_counter_start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Start/Pause"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+        <Button
+            android:id="@+id/btn_counter_stop"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Stop"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_gson_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gson"
+            android:textAllCaps="false"/>
+        <Button
+            android:id="@+id/btn_jsoup_page"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jsoup"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</LinearLayout>
